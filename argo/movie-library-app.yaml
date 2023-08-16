@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: k8s
-    repoURL: https://github.com/tavaresg/movie-library-app-manifests
+    repoURL: https://github.com/almeidarommel/movie-library-app-manifests
     targetRevision: main
   syncPolicy:
     automated:
