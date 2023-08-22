@@ -8,7 +8,7 @@ spec:
     - default: 1.0.0
       name: IMAGE_TAG
       type: string
-    - default: quay.io/gtavares_pessoal/movie-library-app
+    - default: quay.io/rhn_support_rpinto/movie-library-app
       name: IMAGE_NAME
       type: string
     - default: 'https://github.com/tavaresg/movie-library-app.git'
@@ -17,7 +17,7 @@ spec:
     - default: main
       name: GIT_BRANCH
       type: string
-    - default: 'https://github.com/tavaresg/movie-library-app-manifests.git'
+    - default: 'https://github.com/almeidarommel/movie-library-app-manifests.git'
       name: MANIFESTS_GIT_REPO
       type: string
     - default: main
@@ -124,7 +124,7 @@ spec:
         - name: GIT_REF
           value: $(params.MANIFESTS_GIT_BRANCH)
         - name: NEW_IMAGE
-          value: quay.io/gtavares_pessoal/movie-library-app
+          value: quay.io/almeidarommel/movie-library-app
         - name: NEW_DIGEST
           value: $(tasks.buildah.results.IMAGE_DIGEST)
         - name: KUSTOMIZATION_PATH
