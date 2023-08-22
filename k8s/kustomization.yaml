@@ -5,4 +5,4 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - digest: sha256:ec667af590bd4cf3b13b52844f07273c0ae1d0f6f373f58b3bd7fe42ec1874c0
-  name: quay.io/gtavares_pessoal/movie-library-app
+  name: quay.io/rhn_support_rpinto/movie-library-app
