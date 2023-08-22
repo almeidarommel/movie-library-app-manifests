@@ -5,7 +5,7 @@ metadata:
   namespace: projeto-fenix
 spec:
   params:
-    - default: 'quay.io/gtavares_pessoal/sonar-cli-demo:latest'
+    - default: 'quay.io/rhn_support_rpinto/sonar-cli-demo:latest'
       name: scanImage
       type: string
     - default: >-
