@@ -36,7 +36,7 @@ spec:
       - env:
         - name: QUARKUS_PROFILE
           value: openshift-cluster
-        image: quay.io/rhn-support-rpinto/movie-library-app:1.0.0
+        image: quay.io/rhn_support_rpinto/movie-library-app:1.0.0
         imagePullPolicy: IfNotPresent
         name: movie-library-app
         ports:
