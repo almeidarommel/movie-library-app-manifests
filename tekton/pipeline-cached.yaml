@@ -124,7 +124,7 @@ spec:
         - name: GIT_REF
           value: $(params.MANIFESTS_GIT_BRANCH)
         - name: NEW_IMAGE
-          value: quay.io/almeidarommel/movie-library-app
+          value: quay.io/rhn_support_rpinto/movie-library-app
         - name: NEW_DIGEST
           value: $(tasks.buildah.results.IMAGE_DIGEST)
         - name: KUSTOMIZATION_PATH
