@@ -11,7 +11,7 @@ spec:
     - default: quay.io/rhn_support_rpinto/movie-library-app
       name: IMAGE_NAME
       type: string
-    - default: 'https://github.com/tavaresg/movie-library-app.git'
+    - default: 'https://github.com/almeidarommel/movie-library-app.git'
       name: GIT_REPO
       type: string
     - default: main
